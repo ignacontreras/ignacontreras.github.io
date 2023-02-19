@@ -5,8 +5,8 @@ slug: /publications
 items:
   - title: IDEAL
     image:
-      src: /assets/img/publications/Spikes_wp.png
-      alt: water
+      src: /assets/img/publications/Spikes_wp.PNG
+      alt: Spikes_wp
     description: TBA.
 ---
 
