@@ -6,7 +6,7 @@ profile_picture:
 ---
 
 <p>
- Ignacio Contreras academic website!
+ Ignacio Contreras Zúñiga's academic website!
 </p>
 
 <p>
