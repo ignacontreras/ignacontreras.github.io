@@ -10,5 +10,5 @@ profile_picture:
 </p>
 
 <p>
-  You can find my <a href="https://github.com/ignacontreras/ignacontreras.github.io/blob/main/data/CV_Feb2023.pdf">CV</a> here!
+  You can find my <a href="data/CV_Feb2023.pdf">CV</a> here!
 </p>
