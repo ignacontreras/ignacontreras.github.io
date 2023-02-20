@@ -6,7 +6,7 @@ email: iscontreras@uc.cl
 description: Academic website of Ignacio Contreras Zúñiga
 baseurl: ""
 url: "https://ignacontreras.github.io"
-affiliation:
+affiliation: Institute for Mathematical and Computational Engineering, PUC, Chile
 og_image: /assets/img/profile-pic.jpg
 
 header:
