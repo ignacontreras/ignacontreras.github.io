@@ -18,5 +18,5 @@ profile_picture:
 </p>
 
 <ul>
-  <li>(April 2023) I was awarded the SIAM Student Chapter Certificate of Recognition 2023! An interview about the prize and the SIAM-PUC Student Chapter can be found <a href="https://imc.uc.cl/noticias/413-distincion-siam">here!</a (in spanish)
+  <li>(April 2023) I was awarded the SIAM Student Chapter Certificate of Recognition 2023! An interview about the prize and the SIAM-PUC Student Chapter can be found <a href="https://imc.uc.cl/noticias/413-distincion-siam">here!</a> (in spanish).
 </ul>
