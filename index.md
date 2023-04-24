@@ -12,3 +12,7 @@ profile_picture:
 <p>
   You can find my <a href="data/CV_April2023.pdf">CV</a> here!
 </p>
+
+<p>
+  <strong> The News <strong> &#128526;
+<p>
