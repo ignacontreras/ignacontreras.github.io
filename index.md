@@ -15,4 +15,8 @@ profile_picture:
 
 <p>
   <strong> The News <strong> &#128526;
-<p>
+</p>
+
+<ul>
+  <li>(April 2023) I was awarded the SIAM Student Chaprter Certificate of Recognition! An interview about the prize and SIAM-PUC Student Chapter can be found <a href="https://imc.uc.cl/noticias/413-distincion-siam">here!</a (in spanish)
+</ul>
