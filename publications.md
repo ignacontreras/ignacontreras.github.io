@@ -3,7 +3,7 @@ layout: publications
 title: Publications
 slug: /publications
 items:
-  - title: IDEAL
+  - title: TBA
     image:
       src: /assets/img/publications/spikes_wp.PNG
       alt: spikes_wp
