@@ -5,7 +5,7 @@ slug: /research
 items:
   - title: TBA
     image:
-      src: /assets/img/publications/spikes_wp.PNG
+      src: /assets/img/research/spikes_wp.PNG
       alt: spikes_wp
     description: TBA.
 ---
