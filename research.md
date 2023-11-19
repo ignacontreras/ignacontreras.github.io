@@ -5,8 +5,8 @@ slug: /research
 items:
   - title: TBA
     image:
-      src: /assets/img/research/spikes_wp.PNG
-      alt: spikes_wp
+      src: /assets/img/research/Thesis_Example.PNG
+      alt: Thesis_Example
     description: TBA.
 ---
 
