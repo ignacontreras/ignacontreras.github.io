@@ -5,7 +5,7 @@ slug: /research
 items:
   - title: TBA
     image:
-      src: /assets/img/research/Thesis_Example.PNG
+      src: /assets/img/research/Thesis_Example.png
       alt: Thesis_Example
     description: TBA.
 ---
