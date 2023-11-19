@@ -1,7 +1,7 @@
 ---
-layout: publications
-title: Publications
-slug: /publications
+layout: research
+title: Research
+slug: /research
 items:
   - title: TBA
     image:
@@ -10,6 +10,6 @@ items:
     description: TBA.
 ---
 
-This is an example of a "Publications" page, displaying your work, your interests, your projects.
+My research interests lies in.
 <br />
 <br />
