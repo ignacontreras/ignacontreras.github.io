@@ -3,11 +3,11 @@ layout: research
 title: Research
 slug: /research
 items:
-  - title: TBA
+  - title: Lifting IDEAL
     image:
       src: /assets/img/research/Thesis_Example.png
       alt: Thesis_Example
-    description: TBA.
+    description: One of my projects in this topics is to extent the theory to complex valued kernel and to apply the theory to super-resolution to magnetic resonace
 ---
 
 My research interests lies in computational harmonic analysis, convex optimization, scientific computing and their intersection, applied to sparse recovery and inverse problems. This interest began when I did a final project for my fourier analysis course in compressed sensing, and in a later course in matrix completion and robust PCA.
