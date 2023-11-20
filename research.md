@@ -10,7 +10,7 @@ items:
     description: TBA.
 ---
 
-My research interests liens computational harmonic analysis, convex optimization, scientific computing and their intersection, applied to sparse recovery and inverse problems. This interest began when I did a final project for my fourier analysis course in compressed sensing, and in a later course on inverse problems in matrix completion and robust PCA.
+My research interests lies in computational harmonic analysis, convex optimization, scientific computing and their intersection, applied to sparse recovery and inverse problems. This interest began when I did a final project for my fourier analysis course in compressed sensing, and in a later course on inverse problems in matrix completion and robust PCA.
 
 My current Msc project in the problem of Super-Resolution of point sources: To recover a sparse point measure from low-frequency information, which can be cast as a infinite-dimensional optimization problem in the space of complex-valued measures and minimizing the total variation norm. 
 
