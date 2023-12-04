@@ -4,7 +4,7 @@ title: Teaching
 slug: /teaching
 ---
 
-I have been teaching assistant from undergraduate and gradute courses from the Engineering, Mathematics and Physics faculty at <a href= "https://www.uc.cl/en">PUC <a/>
+I have been <br> teaching assistant <br/> from undergraduate and gradute courses from the Engineering, Mathematics and Physics faculty at <a href= "https://www.uc.cl/en">PUC <a/>
 <ol>
   <li>
     Intro to Microlocal Analysis and Inverse Problem, 2nd Semester 2023
