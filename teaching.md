@@ -5,7 +5,7 @@ slug: /teaching
 ---
 
 I have been teaching assistant from undergraduate and gradute courses from the Engineering, Mathematics and Physics faculty at <a href= "https://www.uc.cl/en">PUC <a/>
-<ul>
+<ol>
   <li>
     Intro to Microlocal Analysis and Inverse Problem
   </li>
@@ -18,4 +18,4 @@ I have been teaching assistant from undergraduate and gradute courses from the E
   <li>
     Topics in Inverse Problems
   </li>
-</ul>
+</ol>
