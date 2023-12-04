@@ -10,7 +10,7 @@ profile_picture:
 </p>
 
 <p>
-  You can find my <a href="data/CV_2023.pdf">CV</a> here!
+  You can find my <a href="data/CV_Ignacio_C.pdf">CV</a> here!
 </p>
 
 <p>
