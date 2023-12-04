@@ -7,7 +7,7 @@ description: Academic website of Ignacio Contreras Zúñiga
 baseurl: ""
 url: "https://ignacontreras.github.io"
 affiliation: Institute for Mathematical and Computational Engineering, PUC, Chile
-og_image: /assets/img/profile-pic.jpg
+og_image: /assets/img/profile-pic.JPG
 
 header:
   pages:
