@@ -22,13 +22,13 @@ I have been <b>teaching assistant </b>  from undergraduate and gradute courses f
     <b>Scientific Computing I</b>, Instructor: Federico Fuentes, 2nd Semester 2022
   </li>
   <li>
-    <b>Biomedical Imaging</b>, Instrutor: Carlos Sing-Long, 2nd Semester 2022
+    <b>Biomedical Imaging</b>, Instructor: Carlos Sing-Long, 2nd Semester 2022
   </li>
  <li>
-   <b>Topics in Inverse Problems</b> (graduate), Instrutor: Carlos Sing-Long, 1st Semester 2022
+   <b>Topics in Inverse Problems</b> (graduate), Instructor: Carlos Sing-Long, 1st Semester 2022
  </li>
  <li>
-   <b>Fourier Analysis</b>, Instrutor: Carlos Sing-Long, 2nd Semester 2021
+   <b>Fourier Analysis</b>, Instructor: Carlos Sing-Long, 2nd Semester 2021
  </li>
  <li>
    <b>Calculus III</b>, 1st Semester 2021
@@ -37,7 +37,7 @@ I have been <b>teaching assistant </b>  from undergraduate and gradute courses f
    <b>Electricity and Magnetism Laboratory</b>, Summer Semester 2021
  </li>
  <li>
-   <b>Scientific Computing I</b>, 1st Semester 2020
+   <b>Scientific Computing I</b>, Instructor: Thomas Führer, 1st Semester 2020
  </li>
  <li>
    <b>Electricity and Magnetism</b>, 1st Semester 2020
