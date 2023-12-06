@@ -25,6 +25,8 @@ I have been <b>teaching assistant </b>  for undergraduate and graduate courses f
   </li>
   <li>
     <b>Biomedical Imaging</b>, Instructor: Carlos Sing-Long, 2nd Semester 2022
+    <ul> <li> Expert TA: Designed final projects and prepared weekly Jupyter notebooks to teach students the different biomedical imaging modalities in Python. Topics included: basic signal processing, modern physics, X-rays, Radon transform, CT, Gammagraphy, SPECT, Acoustic \ and optics, MRI, and Under-sampled reconstruction in MRI.  </li>
+    </ul>
   </li>
  <li>
    <b>Topics in Inverse Problems</b> (graduate), Instructor: Carlos Sing-Long, 1st Semester 2022
