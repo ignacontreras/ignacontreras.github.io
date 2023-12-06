@@ -17,6 +17,7 @@ I have been <b>teaching assistant </b>  for undergraduate and graduate courses f
  </li>
   <li>
     <b>Topics in Inverse Problems</b> (graduate), Instrutor: Carlos Sing-Long, 1st Semester 2023
+    <ul> Expert TA </ul>
   </li>
   <li>
     <b>Scientific Computing I</b>, Instructor: Federico Fuentes, 2nd Semester 2022
