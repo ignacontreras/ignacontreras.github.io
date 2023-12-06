@@ -17,7 +17,7 @@ I have been <b>teaching assistant </b>  for undergraduate and graduate courses f
  </li>
   <li>
     <b>Topics in Inverse Problems</b> (graduate), Instrutor: Carlos Sing-Long, 1st Semester 2023
-    <ul> <li> Expert TA </li>
+    <ul> <li> Expert TA: Held weekly office hours, designed homework questions and final projects. Topics were distribution Theory, functional analysis, Sobolev spaces, Pseudodifferential operators, Frame Theory, Multiresolution analysis, denoising, and others. Examples of topics for projects: Radon Transform, Robust PCA, Compressed Sensing-MRI reconstruction, Phase Retrieval, and others.  </li>
     </ul>
   </li>
   <li>
