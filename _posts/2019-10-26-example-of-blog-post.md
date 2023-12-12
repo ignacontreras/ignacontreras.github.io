@@ -27,7 +27,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 #### PART 1
 
-As a test, we write the Reproducing Property. A function $K: \mathcal{X}\times \mathcal{X}\to \mathbb{K}$ is a reproducing kernel of a Hilbert space if $K(\cdot,x)\in\mathcal{H}_{K} \forall x \in \mathcal{X}$ an we have that
+As a test, we write the Reproducing Property. A function $K: \mathcal{X}\times \mathcal{X}\to \mathbb{K}$ is a reproducing kernel of a Hilbert space if $K(\cdot,x)\in\mathcal{H}_{K}$ for all  $x \in \mathcal{X}$ an we have that
 
 $$\langle f,K(\cdot,x) \rangle_{\mathcal{H}_{K}} = f(x)$$
 
