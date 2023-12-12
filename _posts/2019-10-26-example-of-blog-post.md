@@ -13,7 +13,7 @@ og_image: /assets/img/content/post-example/Banner.jpg
 This is an example of blog post.
 Picture by [Bethany Legg](https://unsplash.com/@bkotynski).
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum[^1].
+Lorem ipsum [^1].
 
 <br />
 
@@ -33,29 +33,26 @@ $$\langle f,K(\cdot,x) \rangle_{\mathcal{H}_{K}} = f(x)$$
 
 for all $f\in \mathcal{H}$ and $x\in\mathcal{X}$
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Lorem ipsum 
 <br />
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Duis aute.
 
 <br />
 <br />
 
 #### PART 2
-**Lorem ipsum dolor sit amet,** consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+**Lorem ipsum dolor sit amet,**.
 
 <br />
 
 ##### PART 2 SUB PART 1
-*Duis aute irure dolor in reprehenderit* in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+*Duis aute irure dolor in reprehenderit*.
 
 <br />
 
 ##### PART 2 SUB PART 2
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-
-
+Duis.
 
 
 
