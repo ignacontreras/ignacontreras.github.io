@@ -26,6 +26,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 3. [Footnotes](#footnotes)
 
 #### PART 1
+
+As a test, we write the Reproducing Property. A function $K: \mathcal{X}\times \mathca{X}\to \mathbb{K}$ is a reproducing kernel of a Hilbert space $\mathcal{H}_{K}$ if $K(\cdot,x)\in\mathcal{H}_{K} \forall x \in \mathcal{X} an we have that
+
+$$\langle f,K_{x} \rangle_{\mathcal{H}_{K}} = f(x)$$
+
+for all $f\in \mathcal{H}$ and $x\in\mathcal{X}$
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 <br />
 
@@ -47,9 +54,9 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 ##### PART 2 SUB PART 2
 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-$h_\theta(x) = \Large\frac{1}{1 + \mathcal{e}^{(-\theta^\top x)}}$ ; example (2): $a^2 + b^2 = c^2$ ; example (3): $\sum_{i=1}^{m} y^{(i)}$
 
-$\langle f,K_{x} \rangle_{\mathcal{H}_{K}} = f(x)$
+
+
 
 
 <br />
