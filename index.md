@@ -8,7 +8,9 @@ profile_picture:
 <p>
  Hi! I am M.Sc. student at the <a href="https://imc.uc.cl/">Institute for Mathematical and Computational Engineering UC (IMC)</a>, where I am advised by <a href="https://scholar.google.com/citations?user=MmWdheoAAAAJ&hl=en&oi=ao">Carlos Sing Long</a>. 
 </p>
-
+<p>
+  I have a B.Sc. in Engineering Physics (1st gen!) with a minor in Applied Mathematics and completed the degree in Mathematical and Computational Engineering.
+</p>
 <p>
   You can find my <a href="data/CV_Ignacio_C.pdf">CV</a> here!
 </p>
