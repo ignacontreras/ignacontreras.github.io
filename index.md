@@ -6,7 +6,7 @@ profile_picture:
 ---
 
 <p>
- Hi! I am M.Sc. student at the <a href="https://imc.uc.cl/">Institute for Mathematical and Computational Engineering UC (IMC)</a>, where I am advised by <a href="https://scholar.google.com/citations?hl=en&user=ygA8VaEAAAAJ&view_op=list_works&sortby=pubdate">Carlos Sing Long</a>. 
+ Hi! I am M.Sc. student at the <a href="https://imc.uc.cl/">Institute for Mathematical and Computational Engineering UC (IMC)</a>, where I am advised by <a href="https://scholar.google.com/citations?hl=en&user=ygA8VaEAAAAJ&view_op=list_works">Carlos Sing Long</a>. 
 </p>
 <p>
   I hold a B.Sc. in Engineering Physics (1st gen!), with a minor in Applied Mathematics. Additionally, I completed a degree in Mathematical and Computational Engineering from the IMC.
