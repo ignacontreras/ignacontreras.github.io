@@ -15,7 +15,9 @@ items:
     description: --
 ---
 
-My research interests lies in computational harmonic analysis, convex optimization, scientific computing and their intersection, applied to sparse recovery, inverse problems and data science. This interest began when I did a final project for my fourier analysis course in compressed sensing, and in a later course in matrix completion and robust PCA.
+
+I am interested in research topics relevant to science and engineering, such as inverse problems, signal and image reconstruction, high-dimensional statistics and data science applications, mathematical optimization and information sciences, quantum computing, and others.
+
 
 
 
