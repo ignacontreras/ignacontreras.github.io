@@ -12,7 +12,7 @@ profile_picture:
   I hold a B.Sc. in Engineering Physics (1st gen!), with a minor in Applied Mathematics. Additionally, I completed a degree in Mathematical and Computational Engineering from the IMC.
 </p>
 <p>
-  You can find my <a href="data/CV_Ignacio_C.pdf">CV</a> here!
+  You can find my <a href="data/CV_Ignacio_Contreras_.pdf">CV</a> here!
 </p>
 
 <p>
