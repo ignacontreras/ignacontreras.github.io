@@ -6,7 +6,7 @@ profile_picture:
 ---
 
 <p>
- Hi! I am M.Sc. student at the <a href="https://imc.uc.cl/">Institute for Mathematical and Computational Engineering UC (IMC)</a>, where I am advised by <a href="https://scholar.google.com/citations?hl=en&user=ygA8VaEAAAAJ&view_op=list_works">Carlos Sing Long</a>. 
+ Hi! I am a Research Assitant at the  <a href="https://centroimagenesbiomedicas.uc.cl">Biomedical Imaging Center (CIB) UC</a>.  I am a Mathematical and Computational Engineer and I earned my M.Sc. at the <a href="https://imc.uc.cl/">Institute for Mathematical and Computational Engineering UC (IMC)</a>. 
 </p>
 <p>
   I hold a B.Sc. in Engineering Physics (1st gen!), with a minor in Applied Mathematics. Additionally, I completed a degree in Mathematical and Computational Engineering from the IMC.
@@ -20,6 +20,7 @@ profile_picture:
 </p>
 
 <ul>
+  <li> (April 2026) I presented my work "Demixing Streaking for Quantitative Susceptibility Mapping" done at CIB UC at the  <a href="[https://centroimagenesbiomedicas.uc.cl](https://biomedicalimaging.org/2026/)">IEEE International Symposium on Biomedical Imaging (ISBI) 2026 </a>, in London!
   <li>(November 2024) A poster resulting from my MSc Thesis was accepted at <a href="https://eventos.cmm.uchile.cl/enim2024/"> ENIM 2024<a/> :).
   <li>(November 2023) I participated in "MRI:Processing your Data (in Julia)" Here a <a href="data/MRI Certificate Ignacio Contreras.pdf">certificate</a> and <a href="https://www.flickr.com/photos/197037882@N02/albums">pictures</a>. Very fun tutorials on advance topics in MRI !
   </li>
