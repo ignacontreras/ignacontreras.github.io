@@ -6,7 +6,7 @@ profile_picture:
 ---
 
 <p>
- Hi! I am a Research Assitant at the  <a href="https://centroimagenesbiomedicas.uc.cl">Biomedical Imaging Center (CIB) UC</a>.  I am a Mathematical and Computational Engineer and I earned my M.Sc. at the <a href="https://imc.uc.cl/">Institute for Mathematical and Computational Engineering UC (IMC)</a>. 
+ Hi! I am a Research Assistant at the  <a href="https://centroimagenesbiomedicas.uc.cl">Biomedical Imaging Center (CIB) UC</a>.  I am a Mathematical and Computational Engineer and I earned my M.Sc. at the <a href="https://imc.uc.cl/">Institute for Mathematical and Computational Engineering UC (IMC)</a>. 
 </p>
 <p>
   I hold a B.Sc. in Engineering Physics (1st gen!), with a minor in Applied Mathematics. Additionally, I completed a degree in Mathematical and Computational Engineering from the IMC.
