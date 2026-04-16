@@ -6,7 +6,7 @@ profile_picture:
 ---
 
 <p>
- Hi! I am a Research Assistant at the  <a href="https://centroimagenesbiomedicas.uc.cl">Biomedical Imaging Center (CIB) UC</a>.  I am a Mathematical and Computational Engineer and I earned my M.Sc. at the <a href="https://imc.uc.cl/">Institute for Mathematical and Computational Engineering UC (IMC)</a>. 
+ Hi! I am a Research Assistant at the  <a href="https://centroimagenesbiomedicas.uc.cl">Biomedical Imaging Center (CIB) UC</a>.  I am a Mathematical and Computational Engineer and I earned my M.Sc. at the <a href="https://imc.uc.cl/">Institute for Mathematical and Computational Engineering UC (IMC)</a>. My M.Sc. thesis is <a href="https://repositorio.uc.cl/handle/11534/106546">available here</a>.
 </p>
 <p>
   I hold a B.Sc. in Engineering Physics (1st gen!), with a minor in Applied Mathematics. Additionally, I completed a degree in Mathematical and Computational Engineering from the IMC.
@@ -26,6 +26,7 @@ profile_picture:
   </li>
   <li>(October 2023) Our Team won the first place at <a href=" https://sites.google.com/ing.puc.cl/hacksciml-rl4cenia/home?authuser=0 ">HackSciML!</a> (Hackathon on Scientific Machine Learning). A cute picture <a href= "https://www.instagram.com/imc_uc/p/Cx9KCLfrFLl/?img_index=3" >here</a> (Instagram).
   </li>
+</ul>
   <li>(April 2023) I was awarded the SIAM Student Chapter Certificate of Recognition 2023! An interview about the prize and the SIAM-PUC Student Chapter can be found <a href="https://imc.uc.cl/noticias/413-distincion-siam">here!</a> (in spanish).
   </li> 
 </ul>
