@@ -20,6 +20,7 @@ profile_picture:
 </p>
 
 <ul>
+  <li>(May 2026) Thrilled to have presented two works, in both an oral session and a poster presentation, at the  <a href="https://www.ismrm.org/26m/">2026 ISMRM & ISMRT Annual Meeting & Exhibition</a>, in Cape Town!</li>
   <li>(April 2026) I presented my work "Demixing Streaking for Quantitative Susceptibility Mapping" done at CIB UC at the  <a href="https://biomedicalimaging.org/2026/">IEEE International Symposium on Biomedical Imaging (ISBI) 2026</a>, in London!</li>
   <li>(January 2026) I presented a poster at  <a href="https://eventos.cmm.uchile.cl/ipphys2026/">Inverse Problems in the Physical Sciences IPPhys2026 Summer School</a>, Puerto Varas.</li>
   <li>(November 2024) A poster resulting from my MSc Thesis was accepted at <a href="https://eventos.cmm.uchile.cl/enim2024/">ENIM 2024</a> :).</li>
