@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <script>
+    (function () {
+      try {
+        var stored = localStorage.getItem("theme");
+        var theme =
+          stored === "dark" || stored === "light"
+            ? stored
+            : window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches
+            ? "dark"
+            : "light";
+        document.documentElement.setAttribute("data-theme", theme);
+      } catch (e) {}
+    })();
+  </script>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+
+  
+  
+
+  
+    
+  
+
+  <!-- Primary Meta Tags -->
+  <title>Ignacio Contreras Zúñiga | Post example</title>
+  <meta name="title" content="Ignacio Contreras Zúñiga | Post example"/>
+  <meta name="description" content="A look at an example post using Bay Jekyll theme."/>
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:site_name" content="Ignacio Contreras Zúñiga | Post example"/>
+  <meta property="og:type" content="article"/>
+  <meta property="og:url" content="http://localhost:4000/2019/10/26/example-of-blog-post"/>
+  <meta property="og:title" content="Ignacio Contreras Zúñiga | Post example"/>
+  <meta property="og:description" content="A look at an example post using Bay Jekyll theme."/>
+  <meta property="og:image" content="http://localhost:4000"/>
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image"/>
+  <meta property="twitter:url" content="http://localhost:4000/2019/10/26/example-of-blog-post"/>
+  <meta property="twitter:title" content="Ignacio Contreras Zúñiga | Post example"/>
+  <meta property="twitter:description" content="A look at an example post using Bay Jekyll theme."/>
+  <meta property="twitter:image" content="http://localhost:4000"/>
+  
+
+  <link rel="stylesheet" href="http://localhost:4000/assets/css/main.css"/>
+  <link rel="canonical" href="http://localhost:4000/2019/10/26/example-of-blog-post"/>
+  <link rel="shortcut icon" href="http://localhost:4000/favicon.ico" type="image/x-icon"/>
+
+  <!-- Google Analytics -->
+  <script>
+    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+    ga('create', "", "auto");
+    ga('send', "pageview");
+  </script>
+  <script async src="https://www.google-analytics.com/analytics.js"></script>
+  <!-- MathJax -->
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        inlineMath: [['$','$']]
+      }
+    });
+  </script>
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script> 
+
+
+</head>
+
+
+  <body>
+    <header class="site-header">
+  <div class="wrapper">
+    <a class="site-title" href="http://localhost:4000/">
+      Ignacio Contreras Zúñiga
+    </a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon"></a>
+
+      <div class="menu">
+        
+          
+          
+          <a class="page-link" href="http://localhost:4000/">
+            Home
+          </a>
+        
+          
+          
+          <a class="page-link" href="http://localhost:4000/research">
+            Research
+          </a>
+        
+          
+          
+          <a class="page-link" href="http://localhost:4000/teaching">
+            Teaching
+          </a>
+        
+          
+          
+          <a class="page-link" href="http://localhost:4000/blog">
+            Blog
+          </a>
+        
+
+        <button id="theme-toggle" class="theme-toggle page-link" aria-label="Toggle dark mode" title="Toggle dark mode" type="button">
+          <span class="theme-icon theme-icon-sun">&#9728;</span>
+          <span class="theme-icon theme-icon-moon">&#9789;</span>
+        </button>
+      </div>
+    </nav>
+  </div>
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+          <header class="post-header">
+
+            
+
+            <h1 class="post-title">
+            
+              Post example
+            
+            </h1>
+
+            
+            <p class="post-meta"><span class="post-date">October 26, 2019
+            </span></p>
+          </header>
+
+          <article class="post-content">
+            <p><img src="http://localhost:4000/assets/img/content/post-example/Banner.jpg" alt="bay" class="post-pic" />
+<br />
+<br /></p>
+
+<p>This is an example of blog post.
+Picture by <a href="https://unsplash.com/@bkotynski">Bethany Legg</a>.</p>
+
+<p>Lorem ipsum <sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup>.</p>
+
+<p><br /></p>
+
+<h4 id="table-of-contents">Table of Contents</h4>
+<ol>
+  <li><a href="#part-1">Part 1</a></li>
+  <li><a href="#part-2">Part 2</a>
+    <ul>
+      <li><a href="#part-2-sub-part-1">Part 2 Sub-part 1</a></li>
+      <li><a href="#part-2-sub-part-2">Part 2 Sub-part 2</a></li>
+    </ul>
+  </li>
+  <li><a href="#footnotes">Footnotes</a></li>
+</ol>
+
+<h4 id="part-1">PART 1</h4>
+
+<p>As a test, we write the Reproducing Property. A function $K: \mathcal{X}\times \mathcal{X}\to \mathbb{K}$ is a reproducing kernel of a Hilbert space if $K(\cdot,x)\in\mathcal{H}_{K}$ for all  $x \in \mathcal{X}$ and we have that</p>
+
+\[\langle f,K(\cdot,x) \rangle_{\mathcal{H}_{K}} = f(x)\]
+
+<p>for all $f\in \mathcal{H}$ and $x\in\mathcal{X}$</p>
+
+<p>Lorem ipsum 
+<br /></p>
+
+<p>Duis aute.</p>
+
+<p><br />
+<br /></p>
+
+<h4 id="part-2">PART 2</h4>
+<p><strong>Lorem ipsum dolor sit amet,</strong>.</p>
+
+<p><br /></p>
+
+<h5 id="part-2-sub-part-1">PART 2 SUB PART 1</h5>
+<p><em>Duis aute irure dolor in reprehenderit</em>.</p>
+
+<p><br /></p>
+
+<h5 id="part-2-sub-part-2">PART 2 SUB PART 2</h5>
+<p>Duis.</p>
+
+<p><br /></p>
+
+<h5 id="footnotes">FOOTNOTES</h5>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1">
+      <p>This is a note! <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+          </article>
+
+          
+
+      </div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <h4>CONTACT</h4>
+
+        <div class="social-links">
+          
+            <div class="social-link contact-links">
+
+              
+              <img
+                src="http://localhost:4000/assets/img/icons/email.png"
+                alt="email"
+              />
+              <a href="mailto:iscontreras@uc.cl" id="email-link">
+                
+                  iscontreras@uc.cl
+                
+              </a>
+            </div>
+
+          
+        </div>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <h4>FOLLOW</h4>
+
+        <div class="social-links follow-links">
+          
+            <div class="social-link">
+
+              
+              <img
+                src="http://localhost:4000/assets/img/icons/linkedin.png"
+                alt="linkedin"
+              />
+              <a href="https://www.linkedin.com/in/ignacio-contreras-z%C3%BA%C3%B1iga/">
+                
+                  LinkedIn
+                
+              </a>
+            </div>
+
+          
+        </div>
+      </div>
+
+      
+        <div class="footer-col footer-col-3 powered-by">
+          <p>
+            <a href="https://github.com/eliottvincent/bay">Template credits</a> | 2026
+          </p>
+        </div>
+      
+    </div>
+  </div>
+</footer>
+
+
+  
+
+
+
+
+
+
+    <script type="text/javascript" src="http://localhost:4000/assets/js/vendor/cash-4.1.5.min.js"></script>
+<script type="text/javascript" src="http://localhost:4000/assets/js/site.js"></script>
+
+  </body>
+</html>

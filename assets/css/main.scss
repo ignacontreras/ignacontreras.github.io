@@ -14,13 +14,13 @@ $base-line-height: 1.7;
 
 $spacing-unit: 30px;
 
-$text-color: #111;
-$background-color: #fdfdfd;
-$brand-color: #2a7ae2;
+$text-color: var(--text-color);
+$background-color: var(--background-color);
+$brand-color: var(--brand-color);
 
-$grey-color: #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark: darken($grey-color, 25%);
+$grey-color: var(--grey-color);
+$grey-color-light: var(--grey-color-light);
+$grey-color-dark: var(--grey-color-dark);
 
 $on-mobile: 500px;
 $on-laptop: 800px;
@@ -29,6 +29,54 @@ $on-laptop: 800px;
   @media screen and (max-width: $device) {
     @content;
   }
+}
+
+:root {
+  --text-color: #111111;
+  --background-color: #fdfdfd;
+  --brand-color: #2a7ae2;
+
+  --grey-color: #828282;
+  --grey-color-light: #d6d6d6;
+  --grey-color-dark: #626262;
+
+  --border-color: #cccccc;
+  --card-bg: #ffffff;
+  --code-bg: #eeeeff;
+}
+
+:root[data-theme="dark"] {
+  --text-color: #e8e8e8;
+  --background-color: #121212;
+  --brand-color: #6ea8fe;
+
+  --grey-color: #9a9a9a;
+  --grey-color-light: #3a3a3a;
+  --grey-color-dark: #cfcfcf;
+
+  --border-color: #3a3a3a;
+  --card-bg: #1c1c1c;
+  --code-bg: #22222e;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --text-color: #e8e8e8;
+    --background-color: #121212;
+    --brand-color: #6ea8fe;
+
+    --grey-color: #9a9a9a;
+    --grey-color-light: #3a3a3a;
+    --grey-color-dark: #cfcfcf;
+
+    --border-color: #3a3a3a;
+    --card-bg: #1c1c1c;
+    --code-bg: #22222e;
+  }
+}
+
+body {
+  transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)

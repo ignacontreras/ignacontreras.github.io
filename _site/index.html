@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <script>
+    (function () {
+      try {
+        var stored = localStorage.getItem("theme");
+        var theme =
+          stored === "dark" || stored === "light"
+            ? stored
+            : window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches
+            ? "dark"
+            : "light";
+        document.documentElement.setAttribute("data-theme", theme);
+      } catch (e) {}
+    })();
+  </script>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+
+  
+  
+
+  
+    
+  
+
+  <!-- Primary Meta Tags -->
+  <title>Ignacio Contreras Zúñiga</title>
+  <meta name="title" content="Ignacio Contreras Zúñiga"/>
+  <meta name="description" content="Academic website of Ignacio Contreras Zúñiga"/>
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:site_name" content="Ignacio Contreras Zúñiga"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="http://localhost:4000/"/>
+  <meta property="og:title" content="Ignacio Contreras Zúñiga"/>
+  <meta property="og:description" content="Academic website of Ignacio Contreras Zúñiga"/>
+  <meta property="og:image" content="http://localhost:4000/assets/img/profile-pic.JPG"/>
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image"/>
+  <meta property="twitter:url" content="http://localhost:4000/"/>
+  <meta property="twitter:title" content="Ignacio Contreras Zúñiga"/>
+  <meta property="twitter:description" content="Academic website of Ignacio Contreras Zúñiga"/>
+  <meta property="twitter:image" content="http://localhost:4000/assets/img/profile-pic.JPG"/>
+  
+
+  <link rel="stylesheet" href="http://localhost:4000/assets/css/main.css"/>
+  <link rel="canonical" href="http://localhost:4000/"/>
+  <link rel="shortcut icon" href="http://localhost:4000/favicon.ico" type="image/x-icon"/>
+
+  <!-- Google Analytics -->
+  <script>
+    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+    ga('create', "", "auto");
+    ga('send', "pageview");
+  </script>
+  <script async src="https://www.google-analytics.com/analytics.js"></script>
+  <!-- MathJax -->
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        inlineMath: [['$','$']]
+      }
+    });
+  </script>
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script> 
+
+
+</head>
+
+
+  <body>
+    <header class="site-header">
+  <div class="wrapper">
+    <a class="site-title" href="http://localhost:4000/">
+      Ignacio Contreras Zúñiga
+    </a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon"></a>
+
+      <div class="menu">
+        
+          
+          
+          <a class="page-link" href="http://localhost:4000/">
+            Home
+          </a>
+        
+          
+          
+          <a class="page-link" href="http://localhost:4000/research">
+            Research
+          </a>
+        
+          
+          
+          <a class="page-link" href="http://localhost:4000/teaching">
+            Teaching
+          </a>
+        
+          
+          
+          <a class="page-link" href="http://localhost:4000/blog">
+            Blog
+          </a>
+        
+
+        <button id="theme-toggle" class="theme-toggle page-link" aria-label="Toggle dark mode" title="Toggle dark mode" type="button">
+          <span class="theme-icon theme-icon-sun">&#9728;</span>
+          <span class="theme-icon theme-icon-moon">&#9789;</span>
+        </button>
+      </div>
+    </nav>
+  </div>
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="home">
+          <img
+            src="http://localhost:4000/assets/img/profile-pic.JPG"
+            alt="website picture"
+            class="profile-pic"
+          />
+
+          <p>
+ Hi! I am a Research Assistant at the  <a href="https://centroimagenesbiomedicas.uc.cl">Biomedical Imaging Center (CIB) UC</a>.  I am a Mathematical and Computational Engineer and I earned my M.Sc. at the <a href="https://imc.uc.cl/">Institute for Mathematical and Computational Engineering UC (IMC)</a>. My M.Sc. thesis is <a href="https://repositorio.uc.cl/handle/11534/106546">available here</a>.
+</p>
+<p>
+  I hold a B.Sc. in Engineering Physics (1st gen!), with a minor in Applied Mathematics.
+</p>
+<p>
+  You can find my <a href="data/CV_Ignacio_Contreras_.pdf">CV</a> here!
+</p>
+
+<p>
+  <b> The News </b> &#128526;
+</p>
+
+<ul>
+  <li>(May 2026) Thrilled to have presented two works, in both an oral session and a poster presentation, at the  <a href="https://www.ismrm.org/26m/">2026 ISMRM &amp; ISMRT Annual Meeting &amp; Exhibition</a>, in Cape Town!</li>
+  <li>(April 2026) I presented my work "Demixing Streaking for Quantitative Susceptibility Mapping" done at CIB UC at the  <a href="https://biomedicalimaging.org/2026/">IEEE International Symposium on Biomedical Imaging (ISBI) 2026</a>, in London!</li>
+  <li>(January 2026) I presented a poster at  <a href="https://eventos.cmm.uchile.cl/ipphys2026/">Inverse Problems in the Physical Sciences IPPhys2026 Summer School</a>, Puerto Varas.</li>
+  <li>(November 2024) A poster resulting from my MSc Thesis was accepted at <a href="https://eventos.cmm.uchile.cl/enim2024/">ENIM 2024</a> :).</li>
+  <li>(November 2023) I participated in "MRI:Processing your Data (in Julia)" Here is a <a href="data/MRI Certificate Ignacio Contreras.pdf">certificate</a> and <a href="https://www.flickr.com/photos/197037882@N02/albums">pictures</a>. Very fun tutorials on advance topics in MRI!</li>
+  <li>(October 2023) Our Team won the first place at <a href="https://sites.google.com/ing.puc.cl/hacksciml-rl4cenia/home?authuser=0">HackSciML!</a> (Hackathon on Scientific Machine Learning). A cute picture <a href="https://www.instagram.com/imc_uc/p/Cx9KCLfrFLl/?img_index=3">here</a> (Instagram).</li>
+  <li>(April 2023) I was awarded the SIAM Student Chapter Certificate of Recognition 2023! An interview about the prize and the SIAM-PUC Student Chapter can be found <a href="https://imc.uc.cl/presidente-del-capitulo-siam-puc-recibe-distincion-de-la-sociedad-de-matematicas-aplicadas-e-industriales/">here!</a> (in spanish).</li> 
+</ul>
+
+        </div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <h4>CONTACT</h4>
+
+        <div class="social-links">
+          
+            <div class="social-link contact-links">
+
+              
+              <img
+                src="http://localhost:4000/assets/img/icons/email.png"
+                alt="email"
+              />
+              <a href="mailto:iscontreras@uc.cl" id="email-link">
+                
+                  iscontreras@uc.cl
+                
+              </a>
+            </div>
+
+          
+        </div>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <h4>FOLLOW</h4>
+
+        <div class="social-links follow-links">
+          
+            <div class="social-link">
+
+              
+              <img
+                src="http://localhost:4000/assets/img/icons/linkedin.png"
+                alt="linkedin"
+              />
+              <a href="https://www.linkedin.com/in/ignacio-contreras-z%C3%BA%C3%B1iga/">
+                
+                  LinkedIn
+                
+              </a>
+            </div>
+
+          
+        </div>
+      </div>
+
+      
+        <div class="footer-col footer-col-3 powered-by">
+          <p>
+            <a href="https://github.com/eliottvincent/bay">Template credits</a> | 2026
+          </p>
+        </div>
+      
+    </div>
+  </div>
+</footer>
+
+
+  
+
+
+
+
+
+
+    <script type="text/javascript" src="http://localhost:4000/assets/js/vendor/cash-4.1.5.min.js"></script>
+<script type="text/javascript" src="http://localhost:4000/assets/js/site.js"></script>
+
+  </body>
+</html>

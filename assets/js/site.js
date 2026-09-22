@@ -1,4 +1,25 @@
 /**
+ * Theme toggle
+ */
+(function () {
+  function applyTheme(theme) {
+    document.documentElement.setAttribute("data-theme", theme);
+    try {
+      localStorage.setItem("theme", theme);
+    } catch (e) {}
+  }
+
+  var toggle = document.getElementById("theme-toggle");
+  if (toggle) {
+    toggle.addEventListener("click", function (event) {
+      event.preventDefault();
+      var current = document.documentElement.getAttribute("data-theme") || "light";
+      applyTheme(current === "dark" ? "light" : "dark");
+    });
+  }
+})();
+
+/**
  * Menu
  */
  $("a.menu-icon").on("click", function(event) {

@@ -1,0 +1,23 @@
+<div class="pub-item">
+  <img
+    src="{{ include.item.image | absolute_url }}"
+    alt="{{ include.item.title }}"
+    class="pub-thumb"
+  />
+  <div class="pub-body">
+    <div class="pub-title">{{ include.item.title }}</div>
+    <div class="pub-authors">{{ include.item.authors }}</div>
+    <div class="pub-venue">{{ include.item.venue }}</div>
+    {% if include.item.links %}
+    <div class="pub-links">
+      {% for link in include.item.links %}<a
+        class="pub-link"
+        href="{{ link.url }}"
+        target="_blank"
+        rel="noopener"
+        >{{ link.label }}</a
+      >{% unless forloop.last %}<span class="pub-link-sep">·</span>{% endunless %}{% endfor %}
+    </div>
+    {% endif %}
+  </div>
+</div>

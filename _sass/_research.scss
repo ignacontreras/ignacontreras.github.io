@@ -10,3 +10,65 @@
   width: 200px;
   height: 200px;
 }
+
+.pub-section-title {
+  margin-top: 2.5em;
+  margin-bottom: 0.8em;
+  border-bottom: 1px solid $grey-color-light;
+  padding-bottom: 0.3em;
+}
+
+.pub-item {
+  clear: both;
+  overflow: hidden;
+  padding-bottom: 2em;
+}
+
+.pub-thumb {
+  float: left;
+  margin-right: 20px;
+  width: 180px;
+  height: auto;
+  max-height: 180px;
+  object-fit: contain;
+  background-color: $grey-color-light;
+  border-radius: 4px;
+}
+
+.pub-body {
+  overflow: hidden;
+}
+
+.pub-title {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 0.2em;
+}
+
+.pub-authors {
+  margin-bottom: 0.2em;
+}
+
+.pub-venue {
+  color: $grey-color;
+  font-style: italic;
+  margin-bottom: 0.4em;
+}
+
+.pub-links {
+  font-size: 14px;
+}
+
+.pub-link {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.pub-link:hover {
+  text-decoration: underline;
+}
+
+.pub-link-sep {
+  margin: 0 0.4em;
+  color: $grey-color-light;
+}
