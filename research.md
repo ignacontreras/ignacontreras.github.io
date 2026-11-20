@@ -6,7 +6,6 @@ slug: /research
 preprints:
   - title: "Susceptibility source separation via Closed-form Alternating Newton-type Optimization"
     image: /assets/img/research/arxivpreprintCanon.png
-    zoom: true
     authors: "<strong>I. Contreras-Zúñiga</strong>, C. Tejos, C. Milovic"
     venue: "arXiv preprint, 2026"
     links:

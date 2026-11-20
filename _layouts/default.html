@@ -1,18 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   {% include head.html %}
 
-  <body>
+  <body class="page-{{ page.layout }}">
     {% include header.html %}
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
+    <main class="page">
+      {{ content }}
+    </main>
 
     {% include footer.html %}
-    
+
     {% include foot.html %}
   </body>
 </html>

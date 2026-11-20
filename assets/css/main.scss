@@ -4,80 +4,72 @@
 
 @charset "utf-8";
 
-// Our variables
-$base-url: "{{ site.baseurl }}";
+:root {
+  --font-display: "Lora", Georgia, "Times New Roman", serif;
+  --font-ui: "Hanken Grotesk", "Helvetica Neue", Arial, sans-serif;
+  --font-sign: "Mrs Saint Delafield", "Snell Roundhand", cursive;
 
-$base-font-family: Charter, Georgia, Helvetica, Arial, sans-serif;
-$base-font-size: 16px;
-$small-font-size: $base-font-size * 0.875;
-$base-line-height: 1.7;
+  --pad: clamp(20px, 4vw, 56px);
+  --bar-h: 84px;
 
-$spacing-unit: 30px;
-
-$text-color: var(--text-color);
-$background-color: var(--background-color);
-$brand-color: var(--brand-color);
-
-$grey-color: var(--grey-color);
-$grey-color-light: var(--grey-color-light);
-$grey-color-dark: var(--grey-color-dark);
-
-$on-mobile: 500px;
-$on-laptop: 800px;
-
-@mixin media-query($device) {
-  @media screen and (max-width: $device) {
-    @content;
-  }
+  --img-mist: url("{{ site.baseurl }}/assets/img/atelier/atelier-mist.jpg");
+  --img-water: url("{{ site.baseurl }}/assets/img/atelier/atelier-water.jpg");
+  --img-drift: url("{{ site.baseurl }}/assets/img/atelier/atelier-drift.jpg");
 }
 
-:root {
-  --text-color: #111111;
-  --background-color: #fdfdfd;
-  --brand-color: #2a7ae2;
+/* ---------------- Night (default look, after the reference) ---------------- */
+@mixin night {
+  --ink: #f3f4f7;
+  --ink-2: rgba(243, 244, 247, 0.82);
+  --muted: rgba(196, 206, 222, 0.62);
+  --rule: rgba(226, 234, 246, 0.26);
+  --link: #cdd6f4;
+  --link-hover: #ffffff;
+  --panel: rgba(10, 15, 24, 0.38);
+  --bar-solid: rgba(12, 18, 28, 0.9);
+  --veil-top: rgba(16, 24, 42, 0.5);
+  --veil-bottom: rgba(14, 21, 38, 0.68);
+  --menu-veil: rgba(8, 13, 22, 0.7);
+  --ghost: rgba(255, 255, 255, 0.06);
+  --grain-blend: overlay;
+  --grain-opacity: 0.16;
+  --page-bg: #0b111a;
+  color-scheme: dark;
+}
 
-  --grey-color: #828282;
-  --grey-color-light: #d6d6d6;
-  --grey-color-dark: #626262;
+/* ---------------- Day: the same painting, in daylight ---------------- */
+@mixin day {
+  --ink: #1b2331;
+  --ink-2: rgba(27, 35, 49, 0.84);
+  --muted: rgba(27, 35, 49, 0.56);
+  --rule: rgba(27, 35, 49, 0.24);
+  --link: #3b4a8a;
+  --link-hover: #121a33;
+  --panel: rgba(255, 255, 255, 0.5);
+  --bar-solid: rgba(246, 243, 250, 0.92);
+  --veil-top: rgba(247, 245, 251, 0.5);
+  --veil-bottom: rgba(247, 245, 251, 0.74);
+  --menu-veil: rgba(244, 241, 249, 0.76);
+  --ghost: rgba(27, 35, 49, 0.06);
+  --grain-blend: multiply;
+  --grain-opacity: 0.12;
+  --page-bg: #f1eef6;
+  color-scheme: light;
+}
 
-  --border-color: #cccccc;
-  --card-bg: #ffffff;
-  --code-bg: #eeeeff;
+:root,
+:root[data-theme="light"] {
+  @include day;
 }
 
 :root[data-theme="dark"] {
-  --text-color: #e8e8e8;
-  --background-color: #121212;
-  --brand-color: #6ea8fe;
-
-  --grey-color: #9a9a9a;
-  --grey-color-light: #3a3a3a;
-  --grey-color-dark: #cfcfcf;
-
-  --border-color: #3a3a3a;
-  --card-bg: #1c1c1c;
-  --code-bg: #22222e;
+  @include night;
 }
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --text-color: #e8e8e8;
-    --background-color: #121212;
-    --brand-color: #6ea8fe;
-
-    --grey-color: #9a9a9a;
-    --grey-color-light: #3a3a3a;
-    --grey-color-dark: #cfcfcf;
-
-    --border-color: #3a3a3a;
-    --card-bg: #1c1c1c;
-    --code-bg: #22222e;
+    @include night;
   }
 }
 
-body {
-  transition: background-color 0.2s ease, color 0.2s ease;
-}
-
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import "base", "layout", "site", "blog", "post", "404", "research", "teaching";
+@import "atelier";

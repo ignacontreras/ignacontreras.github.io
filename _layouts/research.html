@@ -1,57 +1,28 @@
-<!DOCTYPE html>
-<html>
-  {% include head.html %}
+---
+layout: default
+---
+<section class="page-head">
+  <h1 class="display">{{ page.title }}</h1>
+  <div class="page-intro">{{ content }}</div>
+</section>
 
-  <body>
-    {% include header.html %}
+{% if page.preprints and page.preprints.size > 0 %}
+<section class="band">
+  <div class="band-head"><h2 class="rule-heading">Preprints</h2><span class="band-count">{{ page.preprints.size }}</span></div>
+  <div class="fragments">{% for item in page.preprints %}{% include publication-item.html item=item %}{% endfor %}</div>
+</section>
+{% endif %}
 
-    <div class="page-content">
-      <div class="wrapper">
-        <div class="research">
-          <h1 class="page-heading">{{ page.title }}</h1>
-          {{ content }}
+{% if page.conferences and page.conferences.size > 0 %}
+<section class="band">
+  <div class="band-head"><h2 class="rule-heading">Conferences</h2><span class="band-count">{{ page.conferences.size }}</span></div>
+  <div class="fragments">{% for item in page.conferences %}{% include publication-item.html item=item %}{% endfor %}</div>
+</section>
+{% endif %}
 
-          {% if page.preprints and page.preprints.size > 0 %}
-          <h2 class="pub-section-title">Preprints</h2>
-          {% for item in page.preprints %}
-            {% include publication-item.html item=item %}
-          {% endfor %}
-          {% endif %}
-
-          {% if page.conferences and page.conferences.size > 0 %}
-          <h2 class="pub-section-title">Conferences</h2>
-          {% for item in page.conferences %}
-            {% include publication-item.html item=item %}
-          {% endfor %}
-          {% endif %}
-
-          {% if page.theses and page.theses.size > 0 %}
-          <h2 class="pub-section-title">Thesis</h2>
-          {% for item in page.theses %}
-            {% include publication-item.html item=item %}
-          {% endfor %}
-          {% endif %}
-
-          {% for item in page.items %}
-          <div class="research-item">
-            <img
-              src="{{ item.image.src | absolute_url }}"
-              alt="{{ item.image.alt }}"
-              class="research-bubble"
-            />
-            <span class="research-text">
-              <strong>{{ item.title }}</strong>
-              &mdash;
-              {{ item.description }}
-            </span>
-          </div>
-          {% endfor %}
-        </div>
-      </div>
-    </div>
-
-    {% include footer.html %}
-
-    {% include foot.html %}
-  </body>
-</html>
+{% if page.theses and page.theses.size > 0 %}
+<section class="band">
+  <div class="band-head"><h2 class="rule-heading">Thesis</h2><span class="band-count">{{ page.theses.size }}</span></div>
+  <div class="fragments">{% for item in page.theses %}{% include publication-item.html item=item %}{% endfor %}</div>
+</section>
+{% endif %}

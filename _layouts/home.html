@@ -1,26 +1,39 @@
-<!DOCTYPE html>
-<html>
-  {% include head.html %}
-
-  <body>
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        <div class="home">
-          <img
-            src="{{ page.profile_picture.src | absolute_url }}"
-            alt="{{ page.profile_picture.alt }}"
-            class="profile-pic"
-          />
-
-          {{ content }}
-        </div>
-      </div>
+---
+layout: default
+---
+<section class="stage">
+  <div class="stage-left">
+    {% if page.kicker %}<p class="kicker">{{ page.kicker }}</p>{% endif %}
+    <h1 class="display">{{ site.title }}</h1>
+    <div class="lede">{{ content }}</div>
+    <div class="stage-links">
+      <span class="label">Connect</span>
+      <a href="{{ "/data/CV_Ignacio_Contreras_.pdf" | absolute_url }}">CV</a>
+      {% for follow in site.footer.follow %}<a href="{{ follow.link }}" target="_blank" rel="noopener">{{ follow.name }}</a>{% endfor %}
+      {% for contact in site.footer.contact %}<a href="{{ contact.link }}">{{ contact.name }}</a>{% endfor %}
     </div>
+  </div>
 
-    {% include footer.html %}
+  <aside class="stage-right">
+    <figure class="portrait">
+      <img src="{{ page.profile_picture.src | absolute_url }}" alt="{{ page.profile_picture.alt }}" />
+    </figure>
 
-    {% include foot.html %}
-  </body>
-</html>
+    <h2 class="rule-heading">News</h2>
+    <ul class="news">
+      {% for n in page.news limit: 4 %}
+      <li><span class="news-date">{{ n.date }}</span><span class="news-text">{{ n.text }}</span></li>
+      {% endfor %}
+    </ul>
+    {% if page.news.size > 4 %}
+    <details class="news-more">
+      <summary>Earlier</summary>
+      <ul class="news">
+        {% for n in page.news offset: 4 %}
+        <li><span class="news-date">{{ n.date }}</span><span class="news-text">{{ n.text }}</span></li>
+        {% endfor %}
+      </ul>
+    </details>
+    {% endif %}
+  </aside>
+</section>

@@ -1,36 +1,17 @@
-<!DOCTYPE html>
-<html>
-  {% include head.html %}
-
-  <body>
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        <div class="blog">
-          <h1 class="page-heading">{{ page.title }}</h1>
-          {{ content }}
-
-          <p class="blog-post-list">
-            {% for post in site.posts %}
-
-              {% if post.draft != true %}
-                <span class="blog-post-date">{{ post.date | date: "%-m/%-d/%y" }}</span>
-                <a href="{{ post.url | replace:".html","" | prepend: site.baseurl }}" class="blog-post-title">
-                  {{ post.title }}
-                </a>
-                <br />
-
-              {% endif %}
-
-            {% endfor %}
-          </p>
-        </div>
-      </div>
-    </div>
-
-    {% include footer.html %}
-
-    {% include foot.html %}
-  </body>
-</html>
+---
+layout: default
+---
+<section class="page-head">
+  <h1 class="display">{{ page.title }}</h1>
+  <div class="page-intro">{{ content }}</div>
+</section>
+<section class="band">
+  <ul class="post-list">
+    {% for post in site.posts %}{% if post.draft != true %}
+    <li>
+      <span class="post-list-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <a class="post-list-title" href="{{ post.url | replace:".html","" | prepend: site.baseurl }}">{{ post.title }}</a>
+    </li>
+    {% endif %}{% endfor %}
+  </ul>
+</section>

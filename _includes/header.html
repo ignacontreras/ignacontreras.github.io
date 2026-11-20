@@ -1,30 +1,43 @@
-<header class="site-header">
-  <div class="wrapper">
-    <a class="site-title" href="{{ "" | prepend: site.baseurl | prepend: site.url }}/">
-      {{ site.title | escape }}
-    </a>
+{% assign cv_url = "/data/CV_Ignacio_Contreras_.pdf" | absolute_url %}
+<header class="topbar" id="topbar">
+  <a class="signature" href="{{ "/" | absolute_url }}" aria-label="{{ site.title }}, home">Ignacio Contreras Zúñiga</a>
 
-    <nav class="site-nav">
-      <a href="#" class="menu-icon"></a>
+  <button class="menu-btn" id="menu-open" type="button" aria-expanded="false" aria-controls="menu-overlay">
+    <span class="burger" aria-hidden="true"></span><span>Menu</span>
+  </button>
 
-      <div class="menu">
-        {% for page in site.header.pages %}
-          {% if page.slug and page.slug != "" and page.slug != nil %}
-            {% assign page_link = page.slug %}
-          {% else %}
-            {% assign page_link = "/" | append: page.name | downcase %}
-          {% endif %}
-          {% assign page_link = page_link | absolute_url %}
-          <a class="page-link" href="{{ page_link }}">
-            {{ page.name }}
-          </a>
-        {% endfor %}
-
-        <button id="theme-toggle" class="theme-toggle page-link" aria-label="Toggle dark mode" title="Toggle dark mode" type="button">
-          <span class="theme-icon theme-icon-sun">&#9728;</span>
-          <span class="theme-icon theme-icon-moon">&#9789;</span>
-        </button>
-      </div>
-    </nav>
+  <div class="topbar-end">
+    <a class="topbar-link" href="{{ cv_url }}">CV</a>
+    <button id="theme-toggle" class="topbar-link theme-toggle" type="button" aria-label="Switch between day and night" title="Switch between day and night">
+      <span class="to-day"><span class="tt-icon">&#9728;</span><span class="tt-word">&nbsp;Day</span></span><span class="to-night"><span class="tt-icon">&#9789;</span><span class="tt-word">&nbsp;Night</span></span>
+    </button>
   </div>
 </header>
+
+<div class="menu-overlay" id="menu-overlay" role="dialog" aria-modal="true" aria-label="Site menu" aria-hidden="true">
+  <div class="topbar topbar--menu">
+    <a class="signature" href="{{ "/" | absolute_url }}" tabindex="-1">Ignacio Contreras Zúñiga</a>
+    <button class="menu-btn" id="menu-close" type="button"><span class="dash" aria-hidden="true"></span><span>Close</span></button>
+    <div class="topbar-end"></div>
+  </div>
+
+  <nav class="menu-nav" aria-label="Main">
+    <ul class="menu-words">
+      {% for item in site.header.pages %}
+        {% if item.slug and item.slug != "" and item.slug != nil %}
+          {% assign item_link = item.slug %}
+        {% else %}
+          {% assign item_link = "/" | append: item.name | downcase %}
+        {% endif %}
+        <li class="mw mw-{{ forloop.index }}">
+          <a href="{{ item_link | absolute_url }}" data-menu-link><sup>{{ forloop.index | prepend: "0" }}</sup>{{ item.name }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+
+  <div class="menu-foot">
+    <div class="menu-caption"><span>{{ site.title }}</span><span>{{ "now" | date: "%Y" }}</span></div>
+    <p class="menu-copy">&copy; {{ "now" | date: "%Y" }} {{ site.title }}</p>
+  </div>
+</div>

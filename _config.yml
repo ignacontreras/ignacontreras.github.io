@@ -36,6 +36,7 @@ plugins:
 
 # Excluded items
 exclude:
+  - photos/
   - .sass-cache/
   - .jekyll-cache/
   - feed.xml

@@ -1,8 +1,24 @@
 ---
 layout: home
+kicker: "Research Assistant · Biomedical Imaging Center UC"
 profile_picture:
   src: /assets/img/profile-pic.JPG
   alt: website picture
+news:
+  - date: "May 2026"
+    text: "Thrilled to have presented two works, in both an oral session and a poster presentation, at the <a href=\"https://www.ismrm.org/26m/\">2026 ISMRM & ISMRT Annual Meeting & Exhibition</a>, in Cape Town!"
+  - date: "April 2026"
+    text: "I presented my work \"Demixing Streaking for Quantitative Susceptibility Mapping\" done at CIB UC at the <a href=\"https://biomedicalimaging.org/2026/\">IEEE International Symposium on Biomedical Imaging (ISBI) 2026</a>, in London!"
+  - date: "January 2026"
+    text: "I presented a poster at <a href=\"https://eventos.cmm.uchile.cl/ipphys2026/\">Inverse Problems in the Physical Sciences IPPhys2026 Summer School</a>, Puerto Varas."
+  - date: "November 2024"
+    text: "A poster resulting from my MSc Thesis was accepted at <a href=\"https://eventos.cmm.uchile.cl/enim2024/\">ENIM 2024</a> :)."
+  - date: "November 2023"
+    text: "I participated in \"MRI:Processing your Data (in Julia)\" Here is a <a href=\"data/MRI Certificate Ignacio Contreras.pdf\">certificate</a> and <a href=\"https://www.flickr.com/photos/197037882@N02/albums\">pictures</a>. Very fun tutorials on advance topics in MRI!"
+  - date: "October 2023"
+    text: "Our Team won the first place at <a href=\"https://sites.google.com/ing.puc.cl/hacksciml-rl4cenia/home?authuser=0\">HackSciML!</a> (Hackathon on Scientific Machine Learning). A cute picture <a href=\"https://www.instagram.com/imc_uc/p/Cx9KCLfrFLl/?img_index=3\">here</a> (Instagram)."
+  - date: "April 2023"
+    text: "I was awarded the SIAM Student Chapter Certificate of Recognition 2023! An interview about the prize and the SIAM-PUC Student Chapter can be found <a href=\"https://imc.uc.cl/presidente-del-capitulo-siam-puc-recibe-distincion-de-la-sociedad-de-matematicas-aplicadas-e-industriales/\">here!</a> (in spanish)."
 ---
 
 <p>
@@ -14,17 +30,3 @@ profile_picture:
 <p>
   You can find my <a href="data/CV_Ignacio_Contreras_.pdf">CV</a> here!
 </p>
-
-<p>
-  <b> The News </b> &#128526;
-</p>
-
-<ul>
-  <li>(May 2026) Thrilled to have presented two works, in both an oral session and a poster presentation, at the  <a href="https://www.ismrm.org/26m/">2026 ISMRM & ISMRT Annual Meeting & Exhibition</a>, in Cape Town!</li>
-  <li>(April 2026) I presented my work "Demixing Streaking for Quantitative Susceptibility Mapping" done at CIB UC at the  <a href="https://biomedicalimaging.org/2026/">IEEE International Symposium on Biomedical Imaging (ISBI) 2026</a>, in London!</li>
-  <li>(January 2026) I presented a poster at  <a href="https://eventos.cmm.uchile.cl/ipphys2026/">Inverse Problems in the Physical Sciences IPPhys2026 Summer School</a>, Puerto Varas.</li>
-  <li>(November 2024) A poster resulting from my MSc Thesis was accepted at <a href="https://eventos.cmm.uchile.cl/enim2024/">ENIM 2024</a> :).</li>
-  <li>(November 2023) I participated in "MRI:Processing your Data (in Julia)" Here is a <a href="data/MRI Certificate Ignacio Contreras.pdf">certificate</a> and <a href="https://www.flickr.com/photos/197037882@N02/albums">pictures</a>. Very fun tutorials on advance topics in MRI!</li>
-  <li>(October 2023) Our Team won the first place at <a href="https://sites.google.com/ing.puc.cl/hacksciml-rl4cenia/home?authuser=0">HackSciML!</a> (Hackathon on Scientific Machine Learning). A cute picture <a href="https://www.instagram.com/imc_uc/p/Cx9KCLfrFLl/?img_index=3">here</a> (Instagram).</li>
-  <li>(April 2023) I was awarded the SIAM Student Chapter Certificate of Recognition 2023! An interview about the prize and the SIAM-PUC Student Chapter can be found <a href="https://imc.uc.cl/presidente-del-capitulo-siam-puc-recibe-distincion-de-la-sociedad-de-matematicas-aplicadas-e-industriales/">here!</a> (in spanish).</li> 
-</ul>

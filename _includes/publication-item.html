@@ -1,23 +1,16 @@
-<div class="pub-item">
-  <img
-    src="{{ include.item.image | absolute_url }}"
-    alt="{{ include.item.title }}"
-    class="pub-thumb{% if include.item.zoom %} pub-thumb-zoom{% endif %}"
-  />
-  <div class="pub-body">
-    <div class="pub-title">{{ include.item.title }}</div>
-    <div class="pub-authors">{{ include.item.authors }}</div>
-    <div class="pub-venue">{{ include.item.venue }}</div>
+<article class="fragment">
+  <div class="fragment-media{% if include.item.zoom %} is-zoom{% endif %}">
+    <img src="{{ include.item.image | absolute_url }}" alt="{{ include.item.title }}" loading="lazy" />
+  </div>
+  <h3 class="fragment-title">{{ include.item.title }}</h3>
+  <p class="fragment-authors">{{ include.item.authors }}</p>
+  <p class="fragment-venue">{{ include.item.venue }}</p>
+  <div class="fragment-foot">
+    <span class="fragment-year">{{ include.item.venue | slice: -4, 4 }}</span>
     {% if include.item.links %}
-    <div class="pub-links">
-      {% for link in include.item.links %}<a
-        class="pub-link"
-        href="{{ link.url }}"
-        target="_blank"
-        rel="noopener"
-        >{{ link.label }}</a
-      >{% unless forloop.last %}<span class="pub-link-sep">·</span>{% endunless %}{% endfor %}
-    </div>
+    <span class="fragment-links">
+      {% for link in include.item.links %}<a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a>{% endfor %}
+    </span>
     {% endif %}
   </div>
-</div>
+</article>
