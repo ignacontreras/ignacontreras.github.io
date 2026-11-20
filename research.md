@@ -4,6 +4,15 @@ title: Research
 slug: /research
 
 preprints:
+  - title: "Susceptibility source separation via Closed-form Alternating Newton-type Optimization"
+    image: /assets/img/research/arxivpreprintCanon.png
+    zoom: true
+    authors: "<strong>I. Contreras-Zúñiga</strong>, C. Tejos, C. Milovic"
+    venue: "arXiv preprint, 2026"
+    links:
+      - label: arXiv
+        url: https://arxiv.org/abs/2611.26561
+
   - title: "Dipole-lets: a new multiscale decomposition for MR phase and quantitative susceptibility mapping"
     image: /assets/img/research/preprint-dipolelets.png
     authors: "<strong>I. Contreras-Zúñiga</strong>, M. Lambert, B. Palacios, C. Tejos, C. Milovic"

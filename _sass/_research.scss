@@ -35,6 +35,11 @@
   border-radius: 4px;
 }
 
+.pub-thumb-zoom {
+  height: 180px;
+  object-fit: cover;
+}
+
 .pub-body {
   overflow: hidden;
 }

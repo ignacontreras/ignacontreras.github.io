@@ -2,7 +2,7 @@
   <img
     src="{{ include.item.image | absolute_url }}"
     alt="{{ include.item.title }}"
-    class="pub-thumb"
+    class="pub-thumb{% if include.item.zoom %} pub-thumb-zoom{% endif %}"
   />
   <div class="pub-body">
     <div class="pub-title">{{ include.item.title }}</div>
