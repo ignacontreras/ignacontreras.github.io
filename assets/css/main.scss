@@ -4,6 +4,11 @@
 
 @charset "utf-8";
 
+/* Image paths live in Sass variables (older Sass cannot hold url() inside custom properties). */
+$img-mist: "{{ site.baseurl }}/assets/img/atelier/atelier-mist.jpg";
+$img-water: "{{ site.baseurl }}/assets/img/atelier/atelier-water.jpg";
+$img-drift: "{{ site.baseurl }}/assets/img/atelier/atelier-drift.jpg";
+
 :root {
   --font-display: "Lora", Georgia, "Times New Roman", serif;
   --font-ui: "Hanken Grotesk", "Helvetica Neue", Arial, sans-serif;
@@ -12,9 +17,6 @@
   --pad: clamp(20px, 4vw, 56px);
   --bar-h: 84px;
 
-  --img-mist: url("{{ site.baseurl }}/assets/img/atelier/atelier-mist.jpg");
-  --img-water: url("{{ site.baseurl }}/assets/img/atelier/atelier-water.jpg");
-  --img-drift: url("{{ site.baseurl }}/assets/img/atelier/atelier-drift.jpg");
 }
 
 /* ---------------- Night (default look, after the reference) ---------------- */

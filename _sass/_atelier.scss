@@ -37,7 +37,6 @@ html {
 }
 
 body {
-  --bg-img: var(--img-water);
   margin: 0;
   min-height: 100vh;
   font-family: var(--font-ui);
@@ -48,8 +47,8 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-body.page-home {
-  --bg-img: var(--img-mist);
+body.page-home::before {
+  background: linear-gradient(var(--veil-top), var(--veil-bottom)), url($img-mist) center / cover no-repeat;
 }
 
 /* The painted ground: fixed, graded by a veil, with a little canvas tooth */
@@ -58,7 +57,7 @@ body::before {
   position: fixed;
   inset: 0;
   z-index: -2;
-  background: linear-gradient(var(--veil-top), var(--veil-bottom)), var(--bg-img) center / cover no-repeat;
+  background: linear-gradient(var(--veil-top), var(--veil-bottom)), url($img-water) center / cover no-repeat;
   pointer-events: none;
 }
 
@@ -315,7 +314,7 @@ button {
     position: absolute;
     inset: -24px;
     z-index: -2;
-    background: var(--img-drift) center / cover no-repeat;
+    background: url($img-drift) center / cover no-repeat;
     filter: blur(5px) saturate(0.8);
   }
 
